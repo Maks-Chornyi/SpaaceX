@@ -1,8 +1,8 @@
 package rocket.rocket.build;
 
-import Enums.CabinEnum;
-import Enums.EngineEnum;
-import Enums.Planet;
+import enums.CabinEnum;
+import enums.EngineEnum;
+import enums.Planet;
 import structure.Cabin;
 import structure.Engine;
 

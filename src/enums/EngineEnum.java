@@ -1,4 +1,4 @@
-package Enums;
+package enums;
 
 public enum EngineEnum {
     SLOW(2, 2, 2, 4, 2, 2200, 5, 10),

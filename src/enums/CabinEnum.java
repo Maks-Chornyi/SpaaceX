@@ -1,4 +1,4 @@
-package Enums;
+package enums;
 
 public enum CabinEnum {
     CABIN89("CABIN89", 1, 1, 1, 1),

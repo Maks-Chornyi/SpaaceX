@@ -1,4 +1,4 @@
-package Enums;
+package enums;
 
 public enum Planet {
     MERCURY("MERCURY",2000),

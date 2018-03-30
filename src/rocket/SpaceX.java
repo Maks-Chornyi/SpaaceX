@@ -1,6 +1,6 @@
 package rocket;
 
-import Enums.Planet;
+import enums.Planet;
 import structure.Cabin;
 import structure.Engine;
 
