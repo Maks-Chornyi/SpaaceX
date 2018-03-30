@@ -9,12 +9,12 @@ import structure.Engine;
 import java.util.Scanner;
 
 public class InteractionWithUser {
-    Scanner sc = new Scanner(System.in);
-    String userInput;
+    private Scanner sc = new Scanner(System.in);
+    private String userInput;
 
-    Cabin cabin;
-    Engine engine1,engine2,engine3;
-    Planet planet;
+    private Cabin cabin;
+    private Engine engine1,engine2,engine3;
+    private Planet planet;
 
     public Cabin getCabin(){
         System.out.println("Hello! Choose one of the structure.Cabin and insert it name for use it:\n" +
