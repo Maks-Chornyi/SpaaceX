@@ -1,4 +1,4 @@
-package rocket.rocket.build;
+package rocket.build;
 
 import enums.CabinEnum;
 import enums.EngineEnum;

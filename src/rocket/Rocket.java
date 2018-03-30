@@ -4,7 +4,7 @@ import enums.Planet;
 import structure.Cabin;
 import structure.Engine;
 
-public abstract class Rocket implements SuccessFaildFly{
+public abstract class Rocket implements checkSuccessFly {
     private int weight = 2;
     private int countOfEngine;
     Planet planet;

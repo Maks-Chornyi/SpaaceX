@@ -1,7 +1,7 @@
 package rocket;
 
 import enums.Planet;
-import rocket.rocket.build.InteractionWithUser;
+import rocket.build.InteractionWithUser;
 import structure.Cabin;
 import structure.Engine;
 
