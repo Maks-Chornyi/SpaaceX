@@ -29,7 +29,7 @@ public abstract class Rocket implements Fly {
         checkFlySuccess();
     }
 
-    void checkFlySuccess(){
+    private void checkFlySuccess(){
         if((planet.getDistance()*engine1.getFuelConsumption()/2)<(engine1.getFuelTankSpace()*3))
         {
             System.out.println("\nHooray! You reached "+planet.getName());
