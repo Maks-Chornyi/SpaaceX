@@ -10,8 +10,5 @@ public class Cabin {
         this.capacity = capacity;
     }
 
-    public int getHeight() {return height;}
     public int getWeight() {return weight;}
-    public int getWidth() {return width;}
-    public int getCapacity() {return capacity;}
 }

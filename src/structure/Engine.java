@@ -14,12 +14,8 @@ public class Engine {
         this.secondSpaceSpeed = secondSpaceSpeed;
     }
 
-    public int getHeithg() {return heithg;}
-    public int getWidth() {return width;}
     public int getWeight() {return weight;}
-    public int getPower() {return power;}
     public int getFuelConsumption() {return fuelConsumption;}
     public int getFuelTankSpace() {return fuelTankSpace;}
-    public int getFirstSpaceSpeed() {return firstSpaceSpeed;}
-    public int getSecondSpaceSpeed() {return secondSpaceSpeed;}
+
 }

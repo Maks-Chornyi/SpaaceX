@@ -8,15 +8,11 @@ public abstract class Rocket implements Fly {
     private int weight = 2;
     private int countOfEngine;
     private Planet planet;
-    private Cabin cabin;
-    private Engine engine1,engine2,engine3;
+        private Engine engine1;
 
     public Rocket(Planet planet,Cabin cabin, Engine engine1, Engine engine2, Engine engine3) {
         this.planet = planet;
-        this.cabin = cabin;
         this.engine1 = engine1;
-        this.engine2 = engine2;
-        this.engine3 = engine3;
         //fields of class
         this.countOfEngine = 3;
         this.weight = weight+cabin.getWeight()+engine1.getWeight()+engine2.getWeight()+engine3.getWeight();
